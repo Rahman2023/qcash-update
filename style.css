@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+}
+
+/* section-1 start here  */
+.logo {
+  text-align: left;
+  padding: 0.5rem;
+}
+.logo img {
+  width: 80px;
+}
+.logo a {
+  text-decoration: none;
+}
+.navbar {
+  background-color: aliceblue;
+  padding: 0.5rem;
+}
+
+.navbar-nav li {
+  text-align: left;
+  border-bottom: 1px solid;
+}
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.login-section a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.login-section p {
+  margin: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(220, 222, 224);
+}
+/* section-1 end here  */
+
+/* <!-- section-2 slider section start here --> */
+
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.product-card img {
+  width: 80%;
+  box-shadow: 1px 2px 2px 2px rgb(196, 194, 194);
+}
+.product-card a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  background-color: black;
+}
+.shadow img {
+  width: 100%;
+}
+/* <!-- section-2 slider section end here --> */
+/* section-3 company start here */
+.company-section {
+  padding: 1rem;
+}
+.company-section h4 {
+  text-align: left;
+}
+.company-logo-top img {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* section-3 company end here */
+/* section-4 services start here */
+.services-section {
+  text-align: left;
+}
+.service li {
+  list-style-type: none;
+}
+.service a {
+  text-decoration: none;
+  color: rgb(80, 78, 78);
+}
+.info {
+  padding: 1rem 0rem;
+}
+/* section-4 services start here */
+/* section-5 footer-navbar start here */
+.footer-navbar {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.footer-nav li {
+  list-style-type: none;
+  padding: 0.2rem;
+}
+.footer-nav a {
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bolder;
+  color: white;
+}
+.footer-social {
+  text-align: end;
+}
+.footer-social img {
+  padding: 1rem;
+  width: 70px;
+}
+
+/* section-5 footer-navbar start here */
+/* section-6 footer-last-navbar start here */
+.footer-last {
+  padding: 1rem;
+}
+.footer-last p {
+  font-size: 15px;
+  text-align: left;
+}
+.footer-last-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-last-nav li {
+  list-style-type: none;
+}
+.footer-last-nav a {
+  text-decoration: none;
+  padding: 0.2rem;
+  font-size: 10px;
+}
+/* section-6 footer-last-navbar start here */
+
+/* login section start here */
+.log-section {
+  padding: 1rem 2rem;
+}
+.log-top-logo img {
+  width: 100px;
+}
+.password_wrong a {
+  text-decoration: none;
+}
+.nice-img a {
+  text-decoration: none;
+}
+.create-reg a {
+  text-decoration: none;
+}
+.help_login li {
+  list-style-type: none;
+}
+.help_login a {
+  text-decoration: none;
+}
+/* login section end here */
+/* register section start here */
+.reg_section {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.reg-logo-div {
+  margin-bottom: 1rem;
+}
+.reg-logo-div img {
+  width: 70px;
+}
+
+.select-form-group {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  margin: 0.5rem 0rem;
+}
+.select-inpt {
+  width: 100%;
+  margin-left: 0.5rem;
+}
+.reg-btn {
+  width: 100%;
+}
+.log-link {
+  text-decoration: none;
+}
+
+/* register section end here */

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <!-- section-1 start here -->
+        <section class="section-1">
+
+          <div class="nav-top">
+            <div class="logo">
+              <a href="index.html"> <img src="image/logo2.png" alt=""></a>
+             </div>
+            <nav class="navbar navbar-expand-xxl">
+           
+              <div> <h5>Main Menu</h5></div>
+  
+                <button
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarIcon"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarIcon">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">About Us</a>
+                    </li>
+  
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Payment Gatewy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Payment Solutions</a>
+                    </li>
+                  </ul>
+                </div>
+             
+            </nav>
+            <div class="login-section">
+                <p>
+                 <a href="login.html">Login</a>
+                </p>
+                <p>
+                <a href="register.html">Register</a>
+                  
+                </p>
+             
+            </div>
+          </div>
+         
+          </div>
+        </section>
+        
+        <!-- section-1 end here -->
+     <div class="container">
+      <div class="reg_section">
+        <form action="#">
+          <input type="hidden" />
+          <div class="reg-logo-div mb-2">
+            <img class="logo" src="image/login-logo.png" />
+            <h4 class="m-0 pb-2 logo-title">নতুন একাউন্ট তৈরি করুন</h4>
+          </div>
+
+          <div class="container">
+            <div class="reg-form-group">
+              <label for="identity"
+                ><input type="radio" name="identity" value="mobile" />
+                মোবাইল
+              </label>
+              <label for="email"
+                ><input type="radio" name="identity" id="email" /> ইমেইল</label
+              >
+            </div>
+          </div>
+
+          <div class="my-form-group">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="আপনার নাম (ইংরেজিতে)"
+            />
+          </div>
+
+          <div class="select-form-group">
+            <div class="select-section">
+              <select class="form-control">
+                <option value="88">+88</option>
+                <option value="966">+966</option>
+              </select>
+            </div>
+            <div class="select-inpt">
+              <input
+                class="form-control"
+                type="number"
+                name="mobile"
+                placeholder="মোবাইল নম্বর (ইংরেজিতে)"
+              />
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-success reg-btn">
+            রেজিষ্টেশন করুন
+          </button>
+        </form>
+
+        <div class="text-center mt-4">
+          <small
+            >আগেই মাইগভে একাউন্ট করেছেন?
+            <a href="" class="log-link">লগইন করুন</a></small
+          >
+        </div>
+        <hr />
+        <div class="help_login">
+          <ul>
+            <li><a href="#">প্রশাসনিক লগইন</a></li>
+            <li>|</li>
+
+            <li><a href="#">সহায়ক লগইন</a></li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
